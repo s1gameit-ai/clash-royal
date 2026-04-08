@@ -1,0 +1,186 @@
+#header {
+  padding: 5px;
+  background-color: rgb(90, 0, 117);
+  color: rgb(255, 255, 200);
+  text-align: center;
+  font-family: fantasy;
+}
+body {
+    color: aliceblue;
+    background-color: rgb(31, 1, 88);
+  padding: 0px;
+  margin: 0px;
+}
+.menu-button {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(34, 0, 66);
+  border: 0px;
+  color: rgb(255, 255, 200);
+  margin: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.menu-button:hover {
+  background-color: rgb(84, 2, 143);
+  color: yellow;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+}
+#weather{
+  display: none;
+}
+
+#goroscop{
+  display: none;
+}
+.id{
+  font-family: Algerian;
+}
+.sign{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  border:2px solid #ccc;
+  border-radius:5px;
+  margin:10px;
+  transition:0.3s;
+}
+.sign:hover{
+  background-color: blueviolet;
+}
+.text{
+  display: none;
+}
+#goroscop{
+  display: none;
+}
+.main-weather{
+  border: solid rgb(2, 255, 187) 2px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 200px;
+  color: rgb(111, 253, 3);
+  background-color: rgb(157, 0, 131);
+  transition: transform 0.3s;
+}
+.main-weather:hover{
+  transform: scale(1.02);
+}
+.deatails{
+  border:solid rgb(154, 226, 11);
+  margin:10px;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 200px;
+  color: rgb(3, 253, 240);
+  background-color: rgb(211, 193, 53);
+  transition: transform 0.3s;
+}
+.day{
+  color:white;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(156, 119, 0),rgb(113, 0, 141));
+}
+
+
+.deatail-item{
+  color: #000000;
+  border: solid rgb(240, 203, 69) 1px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(77, 249, 143);
+  transition: 0.3s;
+}
+ .deatail-item:hover{
+            transform: scale(1.02);
+            background-color: rgb(131, 244, 244);
+          }
+a{
+  text-decoration: none;
+  color:aquamarine;
+}
+footer{
+  background-color: rgb(27, 0, 123);
+  color:rgb(242, 182, 121);
+  padding: 20px;
+  text-align: center;
+}
+.pop:hover{
+  color: rgb(201, 255, 74);
+}
+.popa:hover{
+  color:rgb(201, 255, 74);
+}
+.popo:hover{
+  color:rgb(201, 255, 74);
+}
+a{
+  color:rgb(201, 255, 74)
+}
+a:hover{
+  color:#51e7c9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.temp::before{
+  content: "🌡️";
+}
+.temp::after{
+  content: "🌡️";
+}
+.condition::before{
+  content: "☁️";
+}
+.condition::after{
+  content: "☁️";
+}
+.wind::before{
+  content: "💨";
+}
+.wind::after{
+  content: "💨";
+}
+.deatail-item.fgg::before{
+  content: "🌙";
+}
+.deatail-item.fgg::after{
+  content: "🌙";
+}
+.deatail-item.gg::before{
+  content:"🌄";
+}
+.deatail-item.gg::after{
+  content:"🌄";
+}
+.deatail-item.hh::before{
+  content:"🌇";
+}
+.deatail-item.hh::after{
+  content:"🌇";
+}
